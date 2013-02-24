@@ -12,6 +12,5 @@ module FoundiconsRails
 
   def self.setup
     yield self
-    p self.prefix
   end
 end
