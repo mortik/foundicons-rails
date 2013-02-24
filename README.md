@@ -18,7 +18,40 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+add the following to your application.css
+
+```
+*= require 'foundicons'
+```
+
+and/or for social icons
+
+```
+*= require 'foundicons_social'
+```
+
+and then in your markup
+
+```
+<i class="foundicon-*"></i>
+```
+
+or for social icons
+
+```
+<i class="foundicon-social-*"></i>
+```
+
+where * stands for the name of the icon.
+
+You can also override the prefix "foundicon-" and "foundicon-social" with an initializer:
+
+```
+FoundiconsRails.setup do |config|
+  config.prefix = "icon-"
+  config.social_refix = "icon-social-"
+end
+```
 
 ## Contributing
 

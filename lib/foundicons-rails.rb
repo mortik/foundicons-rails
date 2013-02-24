@@ -11,7 +11,7 @@ module FoundiconsRails
   @@social_prefix = "foundicon-social-"
 
   def self.setup
-    p self.prefix
     yield self
+    p self.prefix
   end
 end
