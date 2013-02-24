@@ -8,9 +8,10 @@ module FoundiconsRails
   @@prefix = "foundicon-"
   
   mattr_accessor :social_prefix
-  @@prefix = "foundicon-social-"
+  @@social_prefix = "foundicon-social-"
 
   def self.setup
+    p self.prefix
     yield self
   end
 end
