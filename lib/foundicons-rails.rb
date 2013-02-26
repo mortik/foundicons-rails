@@ -5,10 +5,16 @@ module FoundiconsRails
   end
 
   mattr_accessor :prefix
-  @@prefix = "foundicon-"
+  @@prefix = "fi-"
   
   mattr_accessor :social_prefix
-  @@social_prefix = "foundicon-social-"
+  @@social_prefix = "fis-"
+
+  mattr_accessor :enclosed_prefix
+  @@enclosed_prefix = "fie-"
+
+  mattr_accessor :accessibility_prefix
+  @@accessibility_prefix = "fia-"
 
   def self.setup
     yield self
