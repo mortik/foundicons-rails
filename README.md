@@ -1,4 +1,5 @@
 # Foundation Icons for Rails
+[![Gem Version](https://badge.fury.io/rb/foundicons-rails.png)](http://badge.fury.io/rb/foundicons-rails)
 
 Basic integration for all 4 icon sets from Zurb Foundation
 
